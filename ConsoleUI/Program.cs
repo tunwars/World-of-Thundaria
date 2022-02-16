@@ -9,7 +9,7 @@ namespace ConsoleUI
     internal class Program
     {
         static void Main(string[] args)
-        {//////
+        {///
 			bool exit = false;
 			int roomLocation = 0;
 
