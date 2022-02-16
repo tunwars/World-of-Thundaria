@@ -9,7 +9,10 @@ namespace ConsoleUI
     internal class Program
     {
         static void Main(string[] args)
-        {///
+        {
+
+        {
+
 			bool exit = false;
 			int roomLocation = 0;
 
@@ -18,6 +21,11 @@ namespace ConsoleUI
 			string[] weapons = new string[4] { "BattleAx", "Numbchucks", "Shank", "Sword" };
 			string[] potions = new string[2] { "Health", "man" };
 			string[] treasure = new string[3] { "Gold", "Silver", "Platinum" };
+
+			//string[] rooms = new string[5] { "Room1", "Room2", "Room3", "Room4", "Room5" };
+			//string[] weapons = new string[4] { "weapon1", "weapon2", "weapon3", "weapon4" };
+			//string[] potions = new string[2] { "Health", "man" };
+			//string[] treasure = new string[3] { "Treasure1", "Treasure2", "Treasure3" };
 
 
 			// Lists
