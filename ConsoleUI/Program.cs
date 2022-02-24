@@ -23,8 +23,8 @@ namespace ConsoleUI
 				string[] treasure = new string[3] { "Gold", "Silver", "Platinum" };
 
 				// Lists
-				List<string> items = new List<string> { "item1", "item2", "item3" };
-				List<string> mobs = new List<string> { "mob1", "mob2", "mob3", "mob4" };
+				List<string> items = new List<string> { "thunder tank", "book of omens", "thunder cycle" };
+				List<string> mobs = new List<string> { "burbels", "mumrah", "mutants", "lunataks" };
 
 				//Main menu
 
