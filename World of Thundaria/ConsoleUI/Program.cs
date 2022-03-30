@@ -44,9 +44,6 @@ namespace ConsoleUI
 					Console.WriteLine("5. Display Items");
 					Console.WriteLine("6. Display Mobs");
 					Console.WriteLine("7. Exit");
-					Console.WriteLine("N. North");
-					Console.WriteLine("S. South");
-					Console.WriteLine("A. Attack");
 					Console.Write("Enter a choice > ");
 					string input = Console.ReadLine();
 
@@ -126,28 +123,15 @@ namespace ConsoleUI
 							}
 							break;
 						case "n":
-							//TODO increse room
-							roomLocation += 1;
-							if (roomLocation > rooms.Length - 1)
-                            {
-								roomLocation -= 1;
-                            }  
+							//TODO
 							break;
 						case "s":
-							//TODO decease room
-							roomLocation -= 1;
-							if (roomLocation < 0)
-							{
-								roomLocation += 1;
-							}
-								break;
+							//TODO
+							break;
 						case "7":
 							exit = true;
 							break;
-						case "a":
-							Console.WriteLine("combat");
-							break;
-							default:
+						default:
 							//TODO
 							break;
 					}
